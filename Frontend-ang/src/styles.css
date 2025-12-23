@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+.pad-10 {
+    padding: 10px;
+}
+.mg-2{
+    margin: 2;
+}
+
+mat-card-header{
+    background-color: whitesmoke;
+}
+

@@ -1,0 +1,10 @@
+.spacer{
+    flex: auto;
+}
+
+.drawer-container {
+  width: auto;
+  height: 80px;
+  margin: 10px;
+  background: #f5f5f5;
+}

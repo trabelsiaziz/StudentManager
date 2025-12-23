@@ -1,0 +1,21 @@
+<div class="root-container">
+  <mat-card appearance="outlined" [formGroup]="loginFormGroup">
+    <mat-card-header>
+      <mat-card-title> Login </mat-card-title>
+    </mat-card-header>
+    <mat-divider style="margin: 10px;"></mat-divider>
+    <mat-card-content>
+      <mat-form-field appearance="outline">
+        <mat-label>Email or Username</mat-label>
+        <input matInput formControlName="username">
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Password</mat-label>
+        <input matInput type="password" formControlName="password">
+      </mat-form-field>
+      <mat-card-actions align="end">
+        <button mat-raised-button color="primary" (click)="login()">Login</button>
+      </mat-card-actions>
+    </mat-card-content>
+  </mat-card>
+</div>

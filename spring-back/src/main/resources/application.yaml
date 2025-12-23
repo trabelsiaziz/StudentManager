@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: spring-back
+  datasource:
+    url: jdbc:h2:mem:testdb
+  h2:
+    console:
+      enabled: true
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  mvc:
+    format:
+      date: d/M/yyyy
+
+
+server:
+    port: 8081
